@@ -1,0 +1,13 @@
+datasets==2.13.1
+fire==0.5.0
+jsonlines==3.1.0
+numpy==1.23.5
+openai==0.27.8
+tqdm==4.65.0
+transformers==4.39.2
+xformers==0.0.20
+fsspec==2023.9.2
+deepspeed==0.14.0
+accelerate
+sentencepiece
+tensorboard
