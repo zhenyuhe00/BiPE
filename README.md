@@ -13,7 +13,7 @@ This repository contains the source code for
 * If you have questions, don't hesitate to open an issue or ask me via <zhenyu.h@outlook.com>. We are happy to hear from you!
 
 
-**↓Overview of BioT5**
+**↓Overview of BiPE**
 ![](./imgs/overview_bipe.png)
 
 ## Setup Environment
@@ -61,6 +61,8 @@ You can also download our pretrained models:
 |RoPE|[link](https://huggingface.co/hzy00/RoPE-151M)|
 |BiPE-ALiBi|[link](https://huggingface.co/hzy00/BiPE_ALiBi-151M)|
 |ALiBi|[link](https://huggingface.co/hzy00/ALiBi-151M)|
+  
+   
 For example to evaluate BiPE-RoPE-151M, you can use the following command:
 ```shell
 git lfs install
