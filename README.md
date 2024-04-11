@@ -3,7 +3,8 @@ Two Stones Hit One Bird: Bilevel Positional Encoding for Better Length Extrapola
 </h1>
 
 ## News
-🔥***Apr 11 2024***: *Release a 1.6B BiPE-RoPE model pre-trained on 300B tokens, demonstrating consistent extrapolation ability comparable to that of the 151 million-parameter version.*
+🔥***Apr 11 2024***: *Release a 1.6B BiPE-RoPE model pre-trained on 300B tokens, demonstrating consistent extrapolation ability comparable to that of the 151 million-parameter version.*   
+
 🔥***Apr 4 2024***: *Initial commits. More codes (YaRN finetuning, SCROLLs finetuning) are coming soon.*
 
 ## Overview
