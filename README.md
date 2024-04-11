@@ -3,7 +3,7 @@ Two Stones Hit One Bird: Bilevel Positional Encoding for Better Length Extrapola
 </h1>
 
 ## News
-
+🔥***Apr 11 2024***: *Release a 1.6B BiPE-RoPE model pre-trained on 300B tokens, demonstrating consistent extrapolation ability comparable to that of the 151 million-parameter version.*
 🔥***Apr 4 2024***: *Initial commits. More codes (YaRN finetuning, SCROLLs finetuning) are coming soon.*
 
 ## Overview
@@ -54,16 +54,17 @@ bash script/eval.sh
 ```
     
      
-You can also download our pretrained models:
+You can also download our pre-trained models (Note that the 1.6B model is pre-trained with a batch size of 1024):
 |Model|HuggingFace Checkpoint 🤗|
 |----|---|
-|BiPE-RoPE|[link](https://huggingface.co/hzy00/BiPE_RoPE-151M)|
-|RoPE|[link](https://huggingface.co/hzy00/RoPE-151M)|
-|BiPE-ALiBi|[link](https://huggingface.co/hzy00/BiPE_ALiBi-151M)|
-|ALiBi|[link](https://huggingface.co/hzy00/ALiBi-151M)|
+|BiPE_RoPE-151M|[link](https://huggingface.co/hzy00/BiPE_RoPE-151M)|
+|BiPE_RoPE-1.6B|[link](https://huggingface.co/hzy00/BiPE_RoPE-1.6B)|
+|RoPE-151M|[link](https://huggingface.co/hzy00/RoPE-151M)|
+|BiPE_ALiBi-151M|[link](https://huggingface.co/hzy00/BiPE_ALiBi-151M)|
+|ALiBi-151M|[link](https://huggingface.co/hzy00/ALiBi-151M)|
   
    
-For example to evaluate BiPE-RoPE-151M, you can use the following command:
+For example, to evaluate BiPE-RoPE-151M, you can use the following command:
 ```shell
 git lfs install
 git clone https://huggingface.co/hzy00/BiPE_RoPE-151M
