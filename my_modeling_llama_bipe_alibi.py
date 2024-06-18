@@ -535,7 +535,7 @@ class LlamaModel(LlamaPreTrainedModel):
         embed = self.embed_tokens(X[:, :, 0])
         for i in range(self.hier):
             embed += self.embeds[i](X[:, :, i+1])
-        return embed, X[:, :, 0]
+        return embed
 
     def get_input_embeddings(self):
         return self.embed_tokens
