@@ -12,7 +12,7 @@ Two Stones Hit One Bird: Bilevel Positional Encoding for Better Length Extrapola
 ## Overview
 This repository contains the source code for 
 * *Arxiv 2024* paper "[Two Stones Hit One Bird: Bilevel Positional Encoding for Better Length Extrapolation](https://arxiv.org/abs/2401.16421)", by Zhenyu He\*, Guhao Feng
-*, Shengjie Luo\*, Kai Yang, Di He, Jingjing Xu, Zhi Zhang, Hongxia Yang, Liwei Wang. BiPE is a general framework for desiging positional encodings for length extrapolation. In this repository, we instantiate two BiPE variants, BiPE-RoPE and BiPE-ALiBi.
+*, Shengjie Luo\*, Kai Yang, Liwei Wang, Jingjing Xu, Zhi Zhang, Hongxia Yang, Di He. BiPE is a general framework for designing positional encodings for length extrapolation. In this repository, we instantiate two BiPE variants, BiPE-RoPE and BiPE-ALiBi.
 * If you have questions, don't hesitate to open an issue or ask me via <zhenyu.h@outlook.com>. We are happy to hear from you!
 
 
