@@ -78,10 +78,13 @@ bash script/eval.sh
 
 ## Citations
 ```
-@article{he2024two,
-  title={Two Stones Hit One Bird: Bilevel Positional Encoding for Better Length Extrapolation},
-  author={He, Zhenyu and Feng, Guhao and Luo, Shengjie and Yang, Kai and He, Di and Xu, Jingjing and Zhang, Zhi and Yang, Hongxia and Wang, Liwei},
-  journal={arXiv preprint arXiv:2401.16421},
-  year={2024}
+
+@inproceedings{
+he2024two,
+title={Two Stones Hit One Bird: Bilevel Positional Encoding for Better Length Extrapolation},
+author={Zhenyu He and Guhao Feng and Shengjie Luo and Kai Yang and Liwei Wang and Jingjing Xu and Zhi Zhang and Hongxia Yang and Di He},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://openreview.net/forum?id=luqH1eL4PN}
 }
 ```
